@@ -9,6 +9,8 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Évaluation Intégration</title>
 </head>
@@ -101,7 +103,7 @@
 
             <div class="boite-a-bulles row">
 
-                <div class="avis col m4">
+                <div class="avis col m4" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     <div class="bulle hoverable">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, assumenda quidem
                             deleniti debitis necessitatibus delectus eius nesciunt? Ducimus, eum! Recusandae?</p>
@@ -116,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="avis col m4">
+                <div class="avis col m4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                     <div class="bulle hoverable">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat debitis tempore fugiat
                             tenetur nostrum quisquam harum quo aperiam dignissimos magnam!</p>
@@ -132,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="avis col m4">
+                <div class="avis col m4" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                     <div class="bulle hoverable">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus numquam dignissimos hic
                             sed amet expedita consectetur reprehenderit nihil necessitatibus earum!</p>
@@ -201,6 +203,13 @@
 
         <section class="download container row">
 
+            <span class="logo-app center bold">H</span>
+
+            <h2 class="center">Download the app <span>.</span></h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid quasi dolores aperiam excepturi quis.</p>
+
+            <a href="#"><img src="./img/Layer2.png" alt="" class="col offset-m5 m2 app"></a>
+
         </section>
 
     </main>
@@ -210,11 +219,16 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
         });
+
+        AOS.init();
     </script>
 </body>
 
