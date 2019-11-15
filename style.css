@@ -271,7 +271,7 @@ padding: 50px;
 /* ! Section subscribe */
 
 .subscribe {
-    padding: 200px 0 150px 0;
+    padding: 150px 0 150px 0;
 }
 
 #email {
@@ -308,7 +308,7 @@ padding: 50px;
 /* ! Section download */
 
 .download {
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .logo-app {
